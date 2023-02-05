@@ -22,3 +22,4 @@ What I Learnt During these Project
     --how to create a simple user registration app for android
     --how to make editext for username,password,email,retype password etc for user registeration and also sign up with social media options.
     --Image Adding in Horizontal Way
+    --Alignment Of each View and proper position of Buttons (Many More)
