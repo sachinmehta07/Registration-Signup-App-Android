@@ -22,7 +22,6 @@
         android:layout_margin="25dp"/>
 
     <EditText
-
         android:id="@+id/user_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,10 +49,10 @@
         android:layout_marginEnd="11dp"
         android:layout_marginBottom="11dp"
         android:background="#30ffffff"
-        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawableStart="@drawable/baseline_email_24"
         android:drawablePadding="10dp"
         android:hint="@string/user_email"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         android:padding="20dp"
         android:textColorHint="@color/white" />
 
@@ -67,7 +66,7 @@
         android:layout_marginEnd="11dp"
         android:layout_marginBottom="11dp"
         android:background="#30ffffff"
-        android:drawableLeft="@drawable/baseline_info_24"
+        android:drawableStart="@drawable/baseline_info_24"
         android:drawablePadding="10dp"
         android:hint="@string/user_password"
         android:inputType="textPassword"
@@ -104,6 +103,17 @@
         android:textSize="25dp" />
 
     <TextView
+        android:id="@+id/have_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/have_acc"
+        android:layout_below="@id/register_btn"
+        android:layout_alignEnd="@id/register_btn"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/info"
@@ -127,21 +137,21 @@
             android:layout_height="48dp"
             android:layout_margin="20dp"
             android:src="@drawable/google"
-            android:contentDescription="google" />
+            android:contentDescription="@string/google" />
 
         <ImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
             android:src="@drawable/fb"
-            android:contentDescription="fb"/>
+            android:contentDescription="@string/fb"/>
 
         <ImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
             android:src="@drawable/twitter"
-            android:contentDescription="twitter"/>
+            android:contentDescription="@string/twitter"/>
 
     </LinearLayout>
 

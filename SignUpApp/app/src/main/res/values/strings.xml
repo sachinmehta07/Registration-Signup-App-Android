@@ -8,4 +8,13 @@
     <string name="user_re_password">Re-Password</string>
     <string name="register">Register</string>
     <string name="sign_up_with">or Signup With</string>
+    <string name="password_login">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="login_1">Login</string>
+    <string name="new_user">new user!</string>
+    <string name="twitter">twitter</string>
+    <string name="fb">fb</string>
+    <string name="google">google</string>
+    <string name="have_acc">Have acc!</string>
 </resources>
